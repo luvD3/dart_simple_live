@@ -4,7 +4,7 @@ on: workflow_dispatch
 jobs:
   # 打包Windows
   build-windows:
-    runs-on: windows-latest
+    runs-on: self-host
     permissions:
       contents: write
     steps:
